@@ -44,3 +44,4 @@
 ||$ git reset HEAD <파일명>|stage add상태 취소|
 ||$ git fetch origin|원격에 저장된 git프로젝트의 현 상태를 다운로드|
 ||$ git checkout <브랜치이름> <파일명>|특정 브랜치의 파일로 바꿔치기|
+||$ git diff --no-renames --name-only HEAD <커밋아이디>|변경 파일 목록|
