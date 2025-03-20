@@ -60,3 +60,5 @@
 - `$ git fetch origin`: 원격에 저장된 git 프로젝트의 현 상태 다운로드
 - `$ git checkout <브랜치이름> <파일명>`: 특정 브랜치의 파일로 변경
 - `$ git diff --no-renames --name-only HEAD <커밋아이디>`: 변경된 파일 목록 확인
+- `$ git reset --hard` : 로컬 변경 사항 모두 원복
+- `$ git reset --hard origin/master` : 로컬 브랜치를 원격 브랜치와 동일한 상태로 맞추기 위해 사용
