@@ -62,3 +62,4 @@
 - `$ git diff --no-renames --name-only HEAD <커밋아이디>`: 변경된 파일 목록 확인
 - `$ git reset --hard` : 로컬 변경 사항 모두 원복
 - `$ git reset --hard origin/master` : 로컬 브랜치를 원격 브랜치와 동일한 상태로 맞추기 위해 사용
+- `$ git reset --hard HEAD~n : 현재 브랜치를 n 번째 이전 커밋으로 이동시키고, 스테이징 영역과 워킹 디렉토리의 모든 변경사항을 버리고 해당 커밋 상태로 완전히 되돌림
